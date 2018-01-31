@@ -209,9 +209,9 @@ a {
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
-	#bio { width:100%; }
+	#bio { width:50%; }
 	#examples { width:50%; }
-	#contactme { width:100%; }
+	#contactme { width:50%; }
 	#medialinks {     width: 50%;
     margin: 0;
     border: none;
@@ -227,3 +227,6 @@ a {
 	nav { width: 100%]}
 	
 }
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
