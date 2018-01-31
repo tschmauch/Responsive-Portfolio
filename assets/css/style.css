@@ -202,17 +202,20 @@ a {
 
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
-	#bio { width:67%; }
-	#examples { width:67%; }
-	#contactme { width:67%; }
+	#bio { width:50%; }
+	#examples { width:50%; }
+	#contactme { width:50%; }
 	#medialinks { width:30%; margin-left:3%;}  
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
 	#bio { width:100%; }
-	#examples { width:100%; }
+	#examples { width:50%; }
 	#contactme { width:100%; }
-	#medialinks { width:100%; margin:0; border:none; }
+	#medialinks {     width: 50%;
+    margin: 0;
+    border: none;
+    float: left}
 	html { width: 100%]}
 	body { width: 100%]}
 	.container { width: 100%]}
