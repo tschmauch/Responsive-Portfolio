@@ -1,3 +1,5 @@
+
+
 html {
 	font-family: 'Open Sans', sans-serif;
 	height: 100%;
@@ -196,4 +198,29 @@ a {
 	padding: 1%;
 	padding-right, padding-left: 2.5%;
 	border-radius: 15%;
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+	#bio { width:67%; }
+	#examples { width:67%; }
+	#contactme { width:67%; }
+	#medialinks { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+	#bio { width:100%; }
+	#examples { width:100%; }
+	#contactme { width:100%; }
+	#medialinks { width:100%; margin:0; border:none; }
+	html { width: 100%]}
+	body { width: 100%]}
+	.container { width: 100%]}
+	.text-block { width: 100%]}
+	.media { width: 100%]}
+	footer { width: 100%]}
+	#content { width: 100%]}
+	header { width: 100%]}
+	nav { width: 100%]}
+	
 }
